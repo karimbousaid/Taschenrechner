@@ -1,0 +1,11 @@
+pip install pyqt5--tools
+
+install QtDesigner => python -m pip install --upgrade pip
+
+pyuic5 -o Taschenrechner.py Tachenrechner.ui
+
+pip install pyinstaller
+
+pyinstaller --onefile --noconsole -i Taschenrechner_icon.icon script.py
+
+pyinstaller.exe --onefile --windowed --icon="C:\Users\Karim Bousaid\Desktop\Taschenrechner\Taschenrechner_icon.ico" script.py
